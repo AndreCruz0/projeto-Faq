@@ -1,0 +1,35 @@
+@media (max-width: 900px){
+    .informacoes-secundarias{
+        justify-content: flex-start;
+    }
+}
+@media (max-width:720px){
+    .main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .container-imagem{
+        transform: translateX(0);
+        transform: translateY(-45px);
+    }
+    .container-informacoes{
+        position: relative ;
+        top: -35px;
+        text-align: center;
+    }
+    .informacoes-secundarias{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 425px){
+    .informacoes-secundarias{
+        justify-content: center;
+        
+    }
+    p{
+        padding: 25px;
+    }
+    
+}
